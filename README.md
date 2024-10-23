@@ -10,6 +10,11 @@ A robust and slightly opinionated ES6 class for managing sprites in HTML5 Canvas
 - **Method Chaining:** For those who like to chain methods like a well-behaved printer.
 
 ## Installation
+### Importing from a Remote URL
+
+If you prefer to keep things sleek and serve your sprite module directly from a remote location, such as https://3disturbed.github.io/ES6_Sprite/Sprite.js, here's how you can do it. Just be prepared for the occasional network hiccup; after all, the internet is a whimsical beast.
+
+
 
 ### Or, Just Download
 Simply download the Sprite.js file and include it in your project. Because sometimes, simplicity is overrated.
@@ -17,9 +22,19 @@ Simply download the Sprite.js file and include it in your project. Because somet
 ## Usage
 ### Basic Example
 
+
+```
+// Import the Sprite class from the remote URL
+import Sprite from 'https://3disturbed.github.io/ES6_Sprite/Sprite.js';
+
+```
+or
+
 ```
 import Sprite from './Sprite.js';
-
+```
+and
+```
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
