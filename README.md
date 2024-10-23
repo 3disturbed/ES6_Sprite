@@ -1,3 +1,5 @@
+
+
 # ES6_Sprite
 
 A robust and slightly opinionated ES6 class for managing sprites in HTML5 Canvas. Perfect for developers who enjoy meticulous control over their animated graphics, with just a hint of dry humor to keep things interesting.
